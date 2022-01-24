@@ -98,7 +98,7 @@ body {
  */
 .cover {
   padding: 0 1.5rem;
-  background-color: #213c6133;
+  background-color: #1a5a739a;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -127,4 +127,13 @@ body {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+
+/* Custumer */
+.bg-blue-default{
+  color: #1A5A73;
+}
+.tx-blue-default{
+  color: #1A5A73;
 }

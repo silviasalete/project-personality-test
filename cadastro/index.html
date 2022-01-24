@@ -10,6 +10,7 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/floating-labels/">
 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     <!-- Bootstrap core CSS -->
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -35,23 +36,25 @@
   <body>
     <form action="../login/index.html" class="form-signin">
   <div class="text-center mb-4">
-    <img class="mb-4" src="../assets/brand/user-circle-solid.svg" alt="" width="72" height="72">
-    <h1 class="h3 mb-3 font-weight-normal">Cadastro</h1>
-    <p>Já tem cadastro? Faça o login <a href="../login/index.html">aqui</a>.</p>
+    <!-- <img class="mb-4" src="../assets/brand/user-circle-solid.svg" alt="" width="72" height="72"> -->
+    <i class="fa fa-user bg-blue-default" style="font-size: 72px;"></i>
+    
+    <h1 class="h3 mb-3 font-weight-normal tx-blue-default">Cadastro</h1>
+    <p class="tx-blue-default">Já tem cadastro? Faça o login <a href="../login/index.html">aqui</a>.</p>
   </div>
 
   <div class="form-label-group">
-    <input type="text" id="inputNome" class="form-control" placeholder="Nome" required autofocus>
+    <input type="text" id="inputNome" class="form-control custom-border" placeholder="Nome" required autofocus>
     <label for="inputNome">Nome</label>
   </div>
 
   <div class="form-label-group">
-    <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required autofocus>
+    <input type="email" id="inputEmail" class="form-control custom-border" placeholder="E-mail" required autofocus>
     <label for="inputEmail">E-mail</label>
   </div>
 
   <div class="form-label-group">
-    <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+    <input type="password" id="inputPassword" class="form-control custom-border" placeholder="Senha" required>
     <label for="inputPassword">Senha</label>
   </div>
 
@@ -60,8 +63,8 @@
       <!-- <input type="checkbox" value="remember-me"> Remember me -->
     </label>
   </div>
-  <button class="btn btn-lg btn-dark btn-block" type="submit">Cadastrar</button>
-  <p class="mt-5 mb-3 text-muted text-center">&copy; Teste de Personalidade</p>
+  <button class="btn btn-lg btn-primary custom-btn btn-block" type="submit">Cadastrar</button>
+  <p class="mt-5 mb-3 text-muted text-center"> Teste de Personalidade</p>
 </form>
 </body>
 </html>
